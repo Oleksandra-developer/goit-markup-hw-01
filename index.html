@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="utf-8" />
@@ -9,73 +9,90 @@
 <body>
     <header>
         <nav>
-            <p>WebStudio</p>
-            <a href="link">Студия</a>
-            <p>Портфолио</p>
-            <p>Контакты</p>
+            <a href="link" class="logo">Web<span>Studio</span></a>
+            <ul>
+                <li>
+                    <a href="link">Студия</a>
+                </li>
+                <li>
+                    <a href="link">Портфолио</a>
+                </li>
+                <li>
+                    <a href="link">Контакты</a>
+                </li>
+            </ul>
         </nav>
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a href="tel.:+380991111111">+38 099 111 11 11</a>
     </header>
-
-    <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
-    </section>
-    <!-- три колонки под героем-->
-    <section>
-        <div>
-            <h3>Внимание к деталям</h3>
-            <span>Идейные соображения, а также начало повседневной работы по формированию позиции.</span>
-        </div>
-        <div>
-            <h3>Пунктуальность</h3>
-            <span>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</span>
-        </div>
-        <div>
-            <h3>Планирование</h3>
-            <span>Равным образом консультация с широким активом в значительной степени обуславливает.</span>
-        </div>
-        <div>
-            <h3>Современные технологии</h3>
-            <span>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</span>
-        </div>
-    </section>
-    <section>
-        <h2>Чем мы занимаемся</h2>
-        <img src="images/img1.png alt=" Набор текста">
-        <img src="images/img2.png" alt="Смартфоны на мониторе">
-        <img src="images/img3.png" alt="Палитра">
-    </section>
-    <section>
-        <h2>Наша команда</h2>
-        <div>
-            <img src="images/face-1.jpg" alt="Игорь Демьяненко">
-            <h3>Игорь Демьяненко</h3>
-            <span>Product Designer</span>
-        </div>
-        <div>
-            <img src="images/face-2.jpg" alt="Ольга Репина">
-            <h3>Ольга Репина</h3>
-            <span>Frontend Developer</span>
-        </div>
-        <div>
-            <img src="images/face-3.jpg" alt="Николай Тарасов">
-            <h3>Николай Тарасов</h3>
-            <span>Marketing</span>
-        </div>
-        <div>
-            <img src="images/face-4.jpg" alt="Михаил Ермаков">
-            <h3>Михаил Ермаков</h3>
-            <span>UI Designer</span>
-        </div>
-    </section>
+    <main>
+        <section>
+            <h1>Эффективные решения для вашего бизнеса</h1>
+            <button type="button">Заказать услугу</button>
+        </section>
+        <!-- три колонки под героем-->
+        <section>
+            <ul>
+                <li>
+                    <h3>Внимание к деталям</h3>
+                    <span>Идейные соображения, а также начало повседневной работы по формированию позиции.</span>
+                </li>
+                <li>
+                    <h3>Пунктуальность</h3>
+                    <span>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</span>
+                </li>
+                <li>
+                    <h3>Планирование</h3>
+                    <span>Равным образом консультация с широким активом в значительной степени обуславливает.</span>
+                </li>
+                <li>
+                    <h3>Современные технологии</h3>
+                    <span>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</span>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Чем мы занимаемся</h2>
+            <img src="images/img-1.jpg" width="370" alt=" Набор текста">
+            <img src="images/img-2.jpg" width="370" alt="Смартфоны на мониторе">
+            <img src="images/img-3.jpg" width="370" alt="Палитра">
+        </section>
+        <section>
+            <h2>Наша команда</h2>
+            <ul>
+                <li>
+                    <img src="images/face-1.jpg" width="270" alt="Игорь Демьяненко">
+                    <h3>Игорь Демьяненко</h3>
+                    <span>Product Designer</span>
+                </li>
+                <li>
+                    <img src="images/face-2.jpg" width="270" alt="Ольга Репина">
+                    <h3>Ольга Репина</h3>
+                    <span>Frontend Developer</span>
+                </li>
+                <li>
+                    <img src="images/face-3.jpg" width="270" alt="Николай Тарасов">
+                    <h3>Николай Тарасов</h3>
+                    <span>Marketing</span>
+                </li>
+                <li>
+                    <img src="images/face-4.jpg" width="270" alt="Михаил Ермаков">
+                    <h3>Михаил Ермаков</h3>
+                    <span>UI Designer</span>
+                </li>
+            </ul>
+        </section>
+    </main>
     <footer>
-        <p>WebStudio</p>
+        <a href="link" class="logo">Web<span>Studio</span></a>
         <address>
             <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <a href="mailto:info@example.com">info@example.com</a>
-            <a href="tel.:+380991111111">+38 099 111 11 11</a>
+            <ul>
+                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li><a href="tel.:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
+
+
         </address>
     </footer>
 
